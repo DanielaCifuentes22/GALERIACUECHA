@@ -19,6 +19,34 @@ function Header(){
                 <a href="#tienda">CONTACTO</a>
                 <a href="#sobre mí">INICIAR SESIÓN</a>
             </nav>
+            <div className="redes-sociales">
+
+                <a
+                    href="https://www.facebook.com/share/19LC8ncekp/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img src={facebook} alt="Facebook" />
+                </a>
+
+                <a
+                    href="https://www.instagram.com/cuecha_?igsh=Y3l1MjFrMTVkZ2d3"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img src={instagram} alt="Instagram" />
+                </a>
+
+                <a
+                    href="https://wa.me/573106144502"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img src={whatsapp} alt="Whatsapp" />
+                </a>
+
+            </div>
+
             <div className = "menuDerecho">
                 <img src={ubicacion} alt="ubicación"/>
                 <IdiomaMenu />
