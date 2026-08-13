@@ -3,6 +3,10 @@ import IdiomaMenu from './IdiomaMenu';
 //Importación de las imagenes para el encabezado
 import logogaleria from "../img/logogaleria.png";
 import ubicacion from "../img/ubicacion.png";
+//Importación de imagenes usados como iconos para redes sociales.
+import facebook from "../img/facebook.png";
+import instagram from "../img/instagram.png";
+import whatsapp from "../img/whatsapp.png";
 
 //Componente Header que muestra el encabezado
 function Header(){
