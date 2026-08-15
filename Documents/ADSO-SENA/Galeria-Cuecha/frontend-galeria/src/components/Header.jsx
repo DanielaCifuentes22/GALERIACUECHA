@@ -1,12 +1,13 @@
 //Importación del componente para selección del idioma
 import IdiomaMenu from './IdiomaMenu';
-//Importación de las imagenes para el encabezado
+//Importación de las imagenes usados como iconos
 import logogaleria from "../Assets/img/logogaleria.png";
 import ubicacion from "../Assets/img/ubicacion.png";
 //Importación de imagenes usados como iconos para redes sociales.
 import facebook from "../Assets/img/facebook.png";
 import instagram from "../Assets/img/instagram.png";
 import whatsapp from "../Assets/img/whatsapp.png";
+import carrocompras from "../Assets/img/carrocompras.png";
 // Importa los Hooks para controlar el menú desplegable
 import { useState, useEffect } from "react";
 
@@ -133,7 +134,14 @@ function Header(){
                 >
                     <img src={whatsapp} alt="Whatsapp" />
                 </a>
-                <img src={ubicacion} alt="ubicación"/>
+                <a
+                    href="https://www.google.com/maps/search/?api=1&query=Plaza+de+Bolivar+Pereira"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                 <img src={ubicacion} alt="Ubicación" />
+                </a>
+                 <img src={carrocompras} alt="Carrito de compras"/>
                 <IdiomaMenu />
             </div>
         </header>
