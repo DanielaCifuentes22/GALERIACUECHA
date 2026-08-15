@@ -7,21 +7,88 @@ import ubicacion from "../Assets/img/ubicacion.png";
 import facebook from "../Assets/img/facebook.png";
 import instagram from "../Assets/img/instagram.png";
 import whatsapp from "../Assets/img/whatsapp.png";
+import { useState } from "react";
 
 //Componente Header que muestra el encabezado
 function Header(){
+    const [menuAbierto, setMenuAbierto] = useState(null);
     return(
         <header className = "header">
             <div className = "logo">
                 <img src={logogaleria} alt="logo de la galeria"/>
             </div>
             {/* Menú principal de navegación*/}
-            <nav className = "nav">
-                <a href="#inicio">INICIO</a>
-                <a href="#obras">OBRAS</a>
-                <a href="#exposiciones">ACTIVIDADES</a>
-                <a href="#tienda">CONTACTO</a>
-                <a href="#sobre mí">INICIAR SESIÓN</a>
+            <nav className="nav">
+
+            <div className="menu-item">
+                <button onClick={() => setMenuAbierto(menuAbierto === "inicio" ? null : "inicio")}>
+                 INICIO
+                </button>
+
+                {menuAbierto === "inicio" && (
+                    <div className="submenu">
+                        <a href="#sobrelagaleria">Sobre la galería</a>
+                        <a href="#obras-destacadas">Obras destacadas</a>
+                        <a href="#Novedades">Novedades</a>
+                    </div>
+                )}  
+            </div>
+
+            <div className="menu-item">
+                <button onClick={() => setMenuAbierto(menuAbierto === "obras" ? null : "obras")}>
+                 OBRAS
+                </button>
+
+                {menuAbierto === "obras" && (
+                    <div className="submenu">
+                        <a href="#pintura">Pintura</a>
+                        <a href="#dibujo">Dibujo</a>
+                        <a href="#estudio-anatomico">Estudio anatómico</a>
+                    </div>
+                )}
+            </div>
+
+            <div className="menu-item">
+                <button onClick={() => setMenuAbierto(menuAbierto === "actividades" ? null : "actividades")}>
+                 ACTIVIDADES
+                </button>
+
+                 {menuAbierto === "actividades" && (
+                    <div className="submenu">
+                        <a href="#talleres">Talleres</a>
+                        <a href="#clases-personalizadas">Clases personalizadas</a>
+                        <a href="#exposiciones">Exposiciones</a>
+                        <a href="#entrevistas">Entrevistas</a>
+                        <a href="#colaboraciones">Colaboraciones</a>
+                    </div>
+                )}
+            </div>
+
+            <div className="menu-item">
+                <button onClick={() => setMenuAbierto(menuAbierto === "contacto" ? null : "contacto")}>
+                 CONTACTO
+                </button>
+
+                {menuAbierto === "contacto" && (
+                    <div className="submenu">
+                        <a href="#formulario-contacto">Formulario de contacto</a>
+                        <a href="#preguntas-frecuentes">Preguntas frecuentes</a>
+                    </div>
+                )}
+            </div>
+
+            <div className="menu-item">
+                <button onClick={() => setMenuAbierto(menuAbierto === "login" ? null : "login")}>
+                 INICIAR SESIÓN
+                </button>
+
+                {menuAbierto === "login" && (
+                    <div className="submenu">
+                        <a href="#iniciar-sesion">Acceder</a>
+                        <a href="#registrarse">Registrarse</a>
+                    </div>
+                 )}
+            </div>
             </nav>
             <div className="iconosMenu">
 
