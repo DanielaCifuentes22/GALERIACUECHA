@@ -1,6 +1,6 @@
 import { useState } from "react";
 //Importación de las imagenes para visualización en el componente Hero
-import foto1 from "../img/foto1.jpeg";
+import foto1 from "../Assets/img/foto1.jpeg";
 
 //Componente Hero donde se muestra la presentación de la galería
 function Hero(){
