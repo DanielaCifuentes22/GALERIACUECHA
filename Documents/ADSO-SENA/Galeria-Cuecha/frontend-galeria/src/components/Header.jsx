@@ -7,17 +7,35 @@ import ubicacion from "../Assets/img/ubicacion.png";
 import facebook from "../Assets/img/facebook.png";
 import instagram from "../Assets/img/instagram.png";
 import whatsapp from "../Assets/img/whatsapp.png";
-import { useState } from "react";
+// Importa los Hooks para controlar el menú desplegable
+import { useState, useEffect } from "react";
 
 //Componente Header que muestra el encabezado
 function Header(){
+    // Estado que controla cuál menú desplegable está abierto
     const [menuAbierto, setMenuAbierto] = useState(null);
+    // Cierra el menú cuando el usuario hace clic fuera de la navegación
+    useEffect(() => {
+        const cerrarMenu = (event) => {
+         // Verifica si el clic ocurrió fuera del menú
+         if (!event.target.closest(".nav")) {
+            setMenuAbierto(null);
+         }
+        };
+        // Detecta los clics realizados en la página
+        document.addEventListener("click", cerrarMenu);
+
+        return () => {
+        // Elimina el evento cuando el componente se desmonta
+         document.removeEventListener("click", cerrarMenu);
+        };
+    }, []);
     return(
         <header className = "header">
             <div className = "logo">
                 <img src={logogaleria} alt="logo de la galeria"/>
             </div>
-            {/* Menú principal de navegación*/}
+            {/* Menú principal de navegación desplegable*/}
             <nav className="nav">
 
             <div className="menu-item">
