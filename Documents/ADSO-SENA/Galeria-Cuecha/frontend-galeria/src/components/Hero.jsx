@@ -1,4 +1,3 @@
-import { useState } from "react";
 //Importación de las imagenes para visualización en el componente Hero
 import foto1 from "../Assets/img/foto1.jpeg";
 
