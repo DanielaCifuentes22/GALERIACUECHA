@@ -1,7 +1,7 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Footer from './components/Footer';
-import './App.css';
+import './style/App.css';
 
 function App() {
   return (

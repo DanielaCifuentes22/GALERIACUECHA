@@ -23,7 +23,7 @@ function Header(){
                 <a href="#tienda">CONTACTO</a>
                 <a href="#sobre mí">INICIAR SESIÓN</a>
             </nav>
-            <div className="redes-sociales">
+            <div className="iconosMenu">
 
                 <a
                     href="https://www.facebook.com/share/19LC8ncekp/"
@@ -48,10 +48,6 @@ function Header(){
                 >
                     <img src={whatsapp} alt="Whatsapp" />
                 </a>
-
-            </div>
-
-            <div className = "menuDerecho">
                 <img src={ubicacion} alt="ubicación"/>
                 <IdiomaMenu />
             </div>
