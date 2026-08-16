@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #434343;
+  color: white;
+}
+.sobre-galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    text-align: center;
+}
+.sobre-galeria img {
+  width: 400px;
+  height: auto;
+  border-radius: 15px;
+}
+.sobre-galeria h1 {
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+.sobre-galeria p{
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: justify;
+}
