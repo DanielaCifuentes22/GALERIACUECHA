@@ -7,6 +7,7 @@ import InfoSection from './components/InfoSection';
 import Footer from './components/Footer';
 // Importación de las páginas
 import SobreGaleria from './pages/SobreGaleria';
+import ObrasDestacadas from './pages/ObrasDestacadas';
 // Estilos generales de la aplicación
 import './style/App.css';
 
@@ -32,6 +33,10 @@ function App() {
         <Route
           path="/sobre-galeria"
           element={<SobreGaleria/>}
+        />
+        <Route
+          path="/obras-destacadas"
+          element={<ObrasDestacadas />}
         />
 
       </Routes>
