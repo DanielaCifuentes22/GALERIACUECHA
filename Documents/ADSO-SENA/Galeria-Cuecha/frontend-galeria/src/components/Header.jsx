@@ -46,7 +46,7 @@ function Header(){
 
                 {menuAbierto === "inicio" && (
                     <div className="submenu">
-                        <a href="#sobrelagaleria">Sobre la galería</a>
+                        <a href="/sobre-galeria">Sobre la galería</a>
                         <a href="#obras-destacadas">Obras destacadas</a>
                         <a href="#Novedades">Novedades</a>
                     </div>
