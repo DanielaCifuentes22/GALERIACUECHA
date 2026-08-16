@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 // Importación de las páginas
 import SobreGaleria from './pages/SobreGaleria';
 import ObrasDestacadas from './pages/ObrasDestacadas';
+import Novedades from './pages/Novedades';
 // Estilos generales de la aplicación
 import './style/App.css';
 
@@ -37,6 +38,10 @@ function App() {
         <Route
           path="/obras-destacadas"
           element={<ObrasDestacadas />}
+        />
+        <Route
+          path="/novedades"
+          element={<Novedades />}
         />
 
       </Routes>
