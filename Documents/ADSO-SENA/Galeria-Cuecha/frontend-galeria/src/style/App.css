@@ -18,6 +18,9 @@ body{
   width: 150px;
   height: 100px;
 }
+.logo a{
+  cursor: pointer;
+}
 .iconosMenu {
   display: flex;
   align-items: center;

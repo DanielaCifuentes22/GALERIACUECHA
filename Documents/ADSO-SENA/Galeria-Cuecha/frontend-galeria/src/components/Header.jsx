@@ -10,6 +10,7 @@ import whatsapp from "../Assets/img/whatsapp.png";
 import carrocompras from "../Assets/img/carrocompras.png";
 // Importa los Hooks para controlar el menú desplegable
 import { useState, useEffect } from "react";
+import { Link } from 'react-router-dom';
 
 //Componente Header que muestra el encabezado
 function Header(){
@@ -34,7 +35,10 @@ function Header(){
     return(
         <header className = "header">
             <div className = "logo">
-                <img src={logogaleria} alt="logo de la galeria"/>
+                {/* Logo con enlace a la página principal */}
+                <Link to="/">
+                    <img src={logogaleria} alt="logo de la galeria"/>
+                </Link>
             </div>
             {/* Menú principal de navegación desplegable*/}
             <nav className="nav">
