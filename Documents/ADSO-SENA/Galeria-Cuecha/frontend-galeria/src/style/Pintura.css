@@ -1,0 +1,14 @@
+.pagina-pintura {
+    padding: 60px 50px;
+    text-align: center;
+}
+.pagina-pintura h1 {
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+.galeria-pintura {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    align-items: center;
+}

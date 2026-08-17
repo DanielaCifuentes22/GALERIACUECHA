@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import SobreGaleria from './pages/SobreGaleria';
 import ObrasDestacadas from './pages/ObrasDestacadas';
 import Novedades from './pages/Novedades';
+import Pintura from './pages/Pintura';
 // Estilos generales de la aplicación
 import './style/App.css';
 
@@ -42,6 +43,10 @@ function App() {
         <Route
           path="/novedades"
           element={<Novedades />}
+        />
+        <Route
+          path="/pintura"
+          element={<Pintura />}
         />
 
       </Routes>
