@@ -15,6 +15,18 @@ import pintura3Detalle from "../Assets/img/pintura3Detalle.jpg";
 import pintura4 from "../Assets/img/pintura4.jpg";
 import pintura4Detalle from "../Assets/img/pintura4Detalle.jpg";
 
+import dibujo1 from "../Assets/img/dibujo1.JPG";
+import dibujo1Detalle from "../Assets/img/dibujo1Detalle.JPG";
+
+import dibujo2 from "../Assets/img/dibujo2.jpg";
+import dibujo2Detalle from "../Assets/img/dibujo2Detalle.JPG";
+
+import dibujo3 from "../Assets/img/dibujo3.JPG";
+import dibujo3Detalle from "../Assets/img/dibujo3Detalle.JPG";
+
+import dibujo4 from "../Assets/img/dibujo4.JPG";
+import dibujo4Detalle from "../Assets/img/dibujo4Detalle.JPG";
+
 function ObraDetalle() {
      // Obtiene la información enviada desde la página anterior
     const location = useLocation();
@@ -54,6 +66,42 @@ function ObraDetalle() {
         pintura4: {
             imagen: pintura4,
             imagenSecundaria: pintura4Detalle,
+            titulo: "--",
+            tecnica: "--",
+            anio: "--",
+            dimensiones: "-- cm"
+        },
+
+         dibujo1: {
+            imagen: dibujo1,
+            imagenSecundaria: dibujo1Detalle,
+            titulo: "--",
+            tecnica: "--",
+            anio: "--",
+            dimensiones: "-- cm"
+        },
+
+         dibujo2: {
+            imagen: dibujo2,
+            imagenSecundaria: dibujo2Detalle,
+            titulo: "--",
+            tecnica: "--",
+            anio: "--",
+            dimensiones: "-- cm"
+        },
+
+         dibujo3: {
+            imagen: dibujo3,
+            imagenSecundaria: dibujo3Detalle,
+            titulo: "--",
+            tecnica: "--",
+            anio: "--",
+            dimensiones: "-- cm"
+        },
+
+         dibujo4: {
+            imagen: dibujo4,
+            imagenSecundaria: dibujo4Detalle,
             titulo: "--",
             tecnica: "--",
             anio: "--",

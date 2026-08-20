@@ -1,12 +1,12 @@
-.pagina-pintura {
+.pagina-obras{
     padding: 60px 50px;
     text-align: center;
 }
-.pagina-pintura h1 {
+.pagina-obras h1 {
     margin-bottom: 30px;
     font-size: 32px;
 }
-.galeria-pintura {
+.galeria-obras {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;

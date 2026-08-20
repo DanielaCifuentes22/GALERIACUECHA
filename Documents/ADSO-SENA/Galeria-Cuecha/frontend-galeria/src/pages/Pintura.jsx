@@ -1,4 +1,4 @@
-import "../style/Pintura.css";
+import "../style/Obras.css";
 // Importación del componente reutilizable para las obras.
 import Card from '../components/Card';
 import pintura1 from '../Assets/img/pintura1.JPG';
@@ -8,9 +8,9 @@ import pintura4 from '../Assets/img/pintura4.jpg';
 
 function Pintura() {
     return (
-        <section className="pagina-pintura">
+        <section className="pagina-obras">
             <h1>Pintura</h1>
-            <div className="galeria-pintura">
+            <div className="galeria-obras">
 
                 <Card
                     id="pintura1"

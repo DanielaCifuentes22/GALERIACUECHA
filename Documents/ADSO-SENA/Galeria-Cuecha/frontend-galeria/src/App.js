@@ -11,6 +11,7 @@ import ObrasDestacadas from './pages/ObrasDestacadas';
 import Novedades from './pages/Novedades';
 import Pintura from './pages/Pintura';
 import ObraDetalle from './pages/ObraDetalle';
+import Dibujo from './pages/Dibujo';
 // Estilos generales de la aplicación
 import './style/App.css';
 
@@ -52,6 +53,10 @@ function App() {
         <Route
           path="/obra-detalle"
           element={<ObraDetalle />}
+        />
+         <Route
+          path="/dibujo"
+          element={<Dibujo />}
         />
 
       </Routes>
