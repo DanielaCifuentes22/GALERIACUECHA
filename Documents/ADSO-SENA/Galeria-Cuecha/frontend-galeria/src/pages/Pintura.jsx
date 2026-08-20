@@ -13,21 +13,25 @@ function Pintura() {
             <div className="galeria-pintura">
 
                 <Card
+                    id="pintura1"
                     imagen={pintura1}
                     titulo="Obra de pintura"
                 />
 
                 <Card
+                    id="pintura2"
                     imagen={pintura2}
                     titulo="Obra de pintura"
                 />
 
                 <Card
+                    id="pintura3"
                     imagen={pintura3}
                     titulo="Obra de pintura"
                 />
 
                 <Card
+                    id="pintura4"
                     imagen={pintura4}
                     titulo="Obra de pintura"
                 />
