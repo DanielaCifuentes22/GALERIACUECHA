@@ -27,6 +27,18 @@ import dibujo3Detalle from "../Assets/img/dibujo3Detalle.JPG";
 import dibujo4 from "../Assets/img/dibujo4.JPG";
 import dibujo4Detalle from "../Assets/img/dibujo4Detalle.JPG";
 
+import estudioanatomico1 from "../Assets/img/estudioanatomico1.JPG";
+import estudioanatomico1Detalle from "../Assets/img/estudioanatomico1Detalle.JPG";
+
+import estudioanatomico2 from "../Assets/img/estudioanatomico2.jpg";
+import estudioanatomico2Detalle from "../Assets/img/estudioanatomico2Detalle.jpg";
+
+import estudioanatomico3 from "../Assets/img/estudioanatomico3.JPG";
+import estudioanatomico3Detalle from "../Assets/img/estudioanatomico3Detalle.JPG";
+
+import estudioanatomico4 from "../Assets/img/estudioanatomico4.JPG";
+import estudioanatomico4Detalle from "../Assets/img/estudioanatomico4Detalle.JPG";
+
 function ObraDetalle() {
      // Obtiene la información enviada desde la página anterior
     const location = useLocation();
@@ -102,6 +114,42 @@ function ObraDetalle() {
          dibujo4: {
             imagen: dibujo4,
             imagenSecundaria: dibujo4Detalle,
+            titulo: "--",
+            tecnica: "--",
+            anio: "--",
+            dimensiones: "-- cm"
+        },
+
+         estudioanatomico1: {
+            imagen: estudioanatomico1,
+            imagenSecundaria: estudioanatomico1Detalle,
+            titulo: "--",
+            tecnica: "--",
+            anio: "--",
+            dimensiones: "-- cm"
+        },
+
+         estudioanatomico2: {
+            imagen: estudioanatomico2,
+            imagenSecundaria: estudioanatomico2Detalle,
+            titulo: "--",
+            tecnica: "--",
+            anio: "--",
+            dimensiones: "-- cm"
+        },
+
+         estudioanatomico3: {
+            imagen: estudioanatomico3,
+            imagenSecundaria: estudioanatomico3Detalle,
+            titulo: "--",
+            tecnica: "--",
+            anio: "--",
+            dimensiones: "-- cm"
+        },
+
+         estudioanatomico4: {
+            imagen: estudioanatomico4,
+            imagenSecundaria: estudioanatomico4Detalle,
             titulo: "--",
             tecnica: "--",
             anio: "--",

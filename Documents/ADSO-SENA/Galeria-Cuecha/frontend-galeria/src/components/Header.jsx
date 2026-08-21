@@ -66,7 +66,7 @@ function Header(){
                     <div className="submenu">
                         <a href="/pintura">Pintura</a>
                         <a href="/dibujo">Dibujo</a>
-                        <a href="#estudio-anatomico">Estudio anatómico</a>
+                        <a href="/estudio-anatomico">Estudio anatómico</a>
                     </div>
                 )}
             </div>
