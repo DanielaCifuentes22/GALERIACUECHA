@@ -13,6 +13,11 @@ import Pintura from './pages/Pintura';
 import ObraDetalle from './pages/ObraDetalle';
 import Dibujo from './pages/Dibujo';
 import EstudioAnatomico from './pages/EstudioAnatomico';
+import Talleres from './pages/Talleres';
+import ClasesPersonalizadas from './pages/ClasesPersonalizadas';
+import Exposiciones from './pages/Exposiciones';
+import Entrevistas from './pages/Entrevistas';
+import Colaboraciones from './pages/Colaboraciones';
 // Estilos generales de la aplicación
 import './style/App.css';
 
@@ -63,7 +68,26 @@ function App() {
           path="/estudio-anatomico"
           element={<EstudioAnatomico />}
         />
-
+         <Route
+          path="/talleres"
+          element={<Talleres />}
+        />
+        <Route
+          path="/clases-personalizadas"
+          element={<ClasesPersonalizadas />}
+        />
+         <Route
+          path="/exposiciones"
+          element={<Exposiciones />}
+        />
+        <Route
+          path="/entrevistas"
+          element={<Entrevistas />}
+        />
+         <Route
+          path="/colaboraciones"
+          element={<Colaboraciones />}
+        />
       </Routes>
 
       <Footer/>

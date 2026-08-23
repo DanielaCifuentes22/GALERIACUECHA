@@ -78,11 +78,11 @@ function Header(){
 
                  {menuAbierto === "actividades" && (
                     <div className="submenu">
-                        <a href="#talleres">Talleres</a>
-                        <a href="#clases-personalizadas">Clases personalizadas</a>
-                        <a href="#exposiciones">Exposiciones</a>
-                        <a href="#entrevistas">Entrevistas</a>
-                        <a href="#colaboraciones">Colaboraciones</a>
+                        <a href="/talleres">Talleres</a>
+                        <a href="/clases-personalizadas">Clases personalizadas</a>
+                        <a href="/exposiciones">Exposiciones</a>
+                        <a href="/entrevistas">Entrevistas</a>
+                        <a href="/colaboraciones">Colaboraciones</a>
                     </div>
                 )}
             </div>
