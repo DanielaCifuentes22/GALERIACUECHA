@@ -1,0 +1,17 @@
+.preguntas-frecuentes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 50px;
+    text-align: left;
+}
+.preguntas-frecuentes h1 {
+    margin-bottom: 30px;
+    font-size: 32px;
+    text-align: center;
+}
+.preguntas-frecuentes p{
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: justify;
+}

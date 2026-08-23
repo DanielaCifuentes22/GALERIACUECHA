@@ -95,7 +95,7 @@ function Header(){
                 {menuAbierto === "contacto" && (
                     <div className="submenu">
                         <a href="/formulario-contacto">Formulario de contacto</a>
-                        <a href="#preguntas-frecuentes">Preguntas frecuentes</a>
+                        <a href="/preguntas-frecuentes">Preguntas frecuentes</a>
                     </div>
                 )}
             </div>

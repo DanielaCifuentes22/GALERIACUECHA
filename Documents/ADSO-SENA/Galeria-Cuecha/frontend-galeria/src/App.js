@@ -19,6 +19,7 @@ import Exposiciones from './pages/Exposiciones';
 import Entrevistas from './pages/Entrevistas';
 import Colaboraciones from './pages/Colaboraciones';
 import FormularioContacto from './pages/FormularioContacto';
+import PreguntasFrecuentes from './pages/PreguntasFrecuentes';
 // Estilos generales de la aplicación
 import './style/App.css';
 
@@ -93,7 +94,12 @@ function App() {
           path="/formulario-contacto"
           element={<FormularioContacto />}
         />
+        <Route
+          path="/preguntas-frecuentes"
+          element={<PreguntasFrecuentes />}
+        />
       </Routes>
+      
 
       <Footer/>
 
