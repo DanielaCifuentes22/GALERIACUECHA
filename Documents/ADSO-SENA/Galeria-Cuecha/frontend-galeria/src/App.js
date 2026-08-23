@@ -18,6 +18,7 @@ import ClasesPersonalizadas from './pages/ClasesPersonalizadas';
 import Exposiciones from './pages/Exposiciones';
 import Entrevistas from './pages/Entrevistas';
 import Colaboraciones from './pages/Colaboraciones';
+import FormularioContacto from './pages/FormularioContacto';
 // Estilos generales de la aplicación
 import './style/App.css';
 
@@ -87,6 +88,10 @@ function App() {
          <Route
           path="/colaboraciones"
           element={<Colaboraciones />}
+        />
+        <Route
+          path="/formulario-contacto"
+          element={<FormularioContacto />}
         />
       </Routes>
 
