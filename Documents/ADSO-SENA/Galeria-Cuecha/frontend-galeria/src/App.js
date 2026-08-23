@@ -1,10 +1,12 @@
 // Importación de herramientas para gestionar la navegación
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 // Importación de los componentes principales
 import Header from './components/Header';
 import Hero from './components/Hero';
 import InfoSection from './components/InfoSection';
 import Footer from './components/Footer';
+
 // Importación de las páginas
 import SobreGaleria from './pages/SobreGaleria';
 import ObrasDestacadas from './pages/ObrasDestacadas';
@@ -20,6 +22,11 @@ import Entrevistas from './pages/Entrevistas';
 import Colaboraciones from './pages/Colaboraciones';
 import FormularioContacto from './pages/FormularioContacto';
 import PreguntasFrecuentes from './pages/PreguntasFrecuentes';
+
+// Importación de las páginas de registro e inicio de sesión
+import Registro from './pages/Registro';
+import Login from './pages/Login';
+
 // Estilos generales de la aplicación
 import './style/App.css';
 
@@ -98,9 +105,16 @@ function App() {
           path="/preguntas-frecuentes"
           element={<PreguntasFrecuentes />}
         />
+        <Route
+          path="/registro"
+          element={<Registro />}
+        />
+        <Route
+          path="/login"
+          element={<Login />}
+        />
       </Routes>
       
-
       <Footer/>
 
     </BrowserRouter>

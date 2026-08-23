@@ -1,0 +1,60 @@
+.registro-container {
+    align-items: center;
+    justify-content: center;
+    padding: 60px 50px;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.registro-card {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.registro-card h1 {
+    margin-bottom: 10px;
+}
+.registro-card > p {
+    margin-bottom: 30px;
+}
+.registro-card form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.registro-card input {
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    outline: none;
+}
+.registro-card input::placeholder {
+    color: #d3d3d3;
+}
+.registro-card input:focus {
+    border-color: white;
+}
+.registro-card button {
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    width: 120px;
+    padding: 10px;
+    margin-top: 20px;
+    align-self: center;
+}
+.registro-card button:hover {
+    background-color: white;
+    color: #434343;
+}
+.registro-mensaje {
+    margin-top: 20px;
+}
